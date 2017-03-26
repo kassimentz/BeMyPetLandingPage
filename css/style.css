@@ -12,7 +12,7 @@ html {
 
 body {
 	font-size: 16px;
-    color: #FFBC8C;
+    color: #FFFFFF;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
@@ -61,7 +61,7 @@ nav ul li {
 nav ul li a { 
 	text-decoration: none;
 	font-size: 1.1em;
-	color: #FFBC8C;
+	color: #FFFFFF;
 	font-weight: bold;
 }
 
@@ -134,9 +134,14 @@ main .gallery {
 	margin-bottom: 50px;
 }
 
+#galeria {
+	color: #64A934;
+}
+
 main .download {
 	width: 100%;
 	height: 600px;
+	background-color: #64A934;
 }
 
 main .download figure {
@@ -185,6 +190,10 @@ main .download aside .buttons {
 main .contato {
 	width: 100%;
 	height: 700px;
+}
+
+#contato {
+	color: #64A934;
 }
 
 /*CSS CONTATO FORM E ICONES*/
@@ -355,6 +364,7 @@ footer {
 	width: 100%;
 	height: 100px;
 	position: relative;
+	background-color: #64A934;
 }
 
 footer article {
@@ -377,11 +387,11 @@ footer aside .social {
 }
 
 #facebook {
-	color: #3b5998;
+	color: #FFFFFF;
 }
 
 #twitter {
-	color: #4099ff;
+	color: #FFFFFF;
 }
 
 /*css plugin */
