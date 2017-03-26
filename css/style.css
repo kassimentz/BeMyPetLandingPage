@@ -1,3 +1,9 @@
+html {    
+	background:url(../images/bemypet3.jpg) no-repeat;
+  	background-size: cover;
+  	height:100%;
+}
+
 * {
 	margin: 0px;
 	font-family: arial, verdana, sans-serif;
@@ -5,10 +11,14 @@
 
 body {
 	font-size: 16px;
+	    color: #FFBC8C;
 }
 
 h2 {
 	margin-bottom: 20px;
+}
+p {
+	color: #FA8282;
 }
 
 #container {
@@ -52,7 +62,7 @@ nav ul li {
 nav ul li a { 
 	text-decoration: none;
 	font-size: 1.1em;
-	color: #000;
+	color: #FFBC8C;
 	font-weight: bold;
 }
 
