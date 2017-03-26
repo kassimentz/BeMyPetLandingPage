@@ -2,58 +2,193 @@
 <html>
 
 <head>
-	<title>Layout</title>
+	<title>BeMyPet</title>
 	<meta charset="UTF-8">
 
 	<style type="text/css">
 		@import "css/style.css";
 	</style>
+
+	<!-- united gallery -->
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="plugins/unitegallery/unitegallery.min.js"></script>
+
+	<link rel='stylesheet' href='css/unite-gallery.css' type='text/css' /> 
+	<script type='text/javascript' src='plugins/unitegallery/themes/tiles/ug-theme-tiles.js'></script> 
+	<link rel='stylesheet' href='plugins/unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+	<!-- fim united gallery -->
+
+	<script type="text/javascript"> 
+			
+			jQuery(document).ready(function(){ 
+				jQuery("#gallery").unitegallery(); 
+			}); 
+		
+	</script>	
+
 </head>
 
 <body>
 	<div id="container">
 
 		<header>
-			<h1>Be My Pet - Encontre seu novo amigo!</h1>
+			<h1>BeMyPet</h1>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Funcionalidades</a></li>
+					<li><a href="#">Imagens</a></li>
+					<li><a href="#">Download</a></li>
+					<li><a href="#">Contato</a></li>
+				</ul>
+			</nav>
 		</header>
 
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Funcionalidades</a></li>
-				<li><a href="#">Imagens</a></li>
-				<li><a href="#">Download</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</nav>
+		
 
 		<main>
 
 			<section class="about">
 				<article>
+					<h2>Sobre o BeMyPet</h2>
 					<p>
-						
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 					</p>
 				</article>
 
 				<figure>
-				
+					<img src="imgs/iphone.png" alt="iphone" title="iphone">
 				</figure>
+
 			</section>
 
 			<section class="features">
+				<h2>Funcionalidades</h2>	
+
+				<div id="carousel">
+				  <img class="cloud9-item" src="imgs/iphone.png" alt="Item #1">
+				  <img class="cloud9-item" src="imgs/iphone.png" alt="Item #2">
+				  <img class="cloud9-item" src="imgs/iphone.png" alt="Item #3">
+				  <img class="cloud9-item" src="imgs/iphone.png" alt="Item #4">
+				  <img class="cloud9-item" src="imgs/iphone.png" alt="Item #5">
+				  <img class="cloud9-item" src="imgs/iphone.png" alt="Item #6">
+				</div>
+
+				<div id="buttons">
+				  <button class="left">
+				    ←
+				  </button>
+				  <button class="right">
+				    →
+				  </button>
+				</div>	
 				
 			</section>
 
 			<section class="gallery">
+				<h2>Imagens</h2>
+
+				<div id="gallery" style="display:none;">
+		
+					<img alt="Image 1 Title" src="imgs/veia_e_kira.jpg"
+						data-image="imgs/veia_e_kira.jpg"
+						data-description="Image 1 Description">
+					
+					<img alt="Image 2 Title" src="imgs/veia.jpg"
+						data-image="imgs/veia.jpg"
+						data-description="Image 2 Description">
+
+					<img alt="Image 3 Title" src="imgs/kira.jpg"
+						data-image="imgs/kira.jpg"
+						data-description="Image 3 Description">
+
+					<img alt="Image 1 Title" src="imgs/veia_e_kira.jpg"
+						data-image="imgs/veia_e_kira.jpg"
+						data-description="Image 1 Description">
+					
+					<img alt="Image 2 Title" src="imgs/veia.jpg"
+						data-image="imgs/veia.jpg"
+						data-description="Image 2 Description">
+
+					<img alt="Image 3 Title" src="imgs/kira.jpg"
+						data-image="imgs/kira.jpg"
+						data-description="Image 3 Description">
+
+					<img alt="Image 1 Title" src="imgs/veia_e_kira.jpg"
+						data-image="imgs/veia_e_kira.jpg"
+						data-description="Image 1 Description">
+					
+					<img alt="Image 2 Title" src="imgs/veia.jpg"
+						data-image="imgs/veia.jpg"
+						data-description="Image 2 Description">
+
+					<img alt="Image 3 Title" src="imgs/kira.jpg"
+						data-image="imgs/kira.jpg"
+						data-description="Image 3 Description">
+
+					<img alt="Image 1 Title" src="imgs/veia_e_kira.jpg"
+						data-image="imgs/veia_e_kira.jpg"
+						data-description="Image 1 Description">
+					
+					<img alt="Image 2 Title" src="imgs/veia.jpg"
+						data-image="imgs/veia.jpg"
+						data-description="Image 2 Description">
+
+					<img alt="Image 3 Title" src="imgs/kira.jpg"
+						data-image="imgs/kira.jpg"
+						data-description="Image 3 Description">
+
+
+				
+				</div>
 				
 			</section>
 
-			<section class="Download">
+			<section class="download">
+				<h2>Download</h2>
+
+				<figure>
+					<img src="imgs/iphone.png" alt="iphone" title="iphone">
+				</figure>
+
+				<aside>
+					<div class="buttons">
+						<span id="btnAppStore"></span>
+						<span id="btnPlayStore"></span>
+					</div>
+				</aside>
 				
 			</section>
 
 			<section class="form">
+				<h2>Contato</h2>
+
+				<form>
+					<div class="contato">
+						<input type="text" id="nome" name="nome" placeholder="Nome: " required> <br>
+						
+						<input type="email" name="contato" id="contato" required placeholder="Email:"><br>
+
+						<textarea id="contato" name="contato" cols="50" rows="5" maxlength="140" placeholder="Contato:"></textarea><br>
+
+						<input type="submit" name="acao" id="acao" value="Enviar"> 
+					</div>
+				</form>
 				
 			</section>			
 
@@ -64,6 +199,22 @@
 		</footer>
 
 	</div>
+
+	
+	<script type="text/javascript" src="plugins/cloud9corousel/jquery.cloud9carousel.js"></script>
+
+
+
+	<script type="text/javascript">
+
+		$("#carousel").Cloud9Carousel( {
+		  buttonLeft: $("#buttons > .left"),
+		  buttonRight: $("#buttons > .right"),
+		  autoPlay: 1,
+		  bringToFront: true
+		} );
+
+	</script>
 
 </body>
 </html>
