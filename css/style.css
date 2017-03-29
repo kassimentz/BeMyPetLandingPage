@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 html {    
-	background:url(../images/bemypet3.jpg) no-repeat;
   	background-size: cover;
   	height:100%;
 }
@@ -18,6 +17,7 @@ body {
 
 h2 {
 	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 .containernav {
@@ -95,25 +95,25 @@ nav ul li a {
 main {
 	width: 100%;
 	position: relative;
-	top: 80px;
 }
 
 main .about {
 	width: 100%;
-	height: 500px;
-	margin-bottom: 50px;
+	height: 800px;
+	background: url(../images/bemypet3.jpg) no-repeat;
 }
 
 main .about article {
 	width: 50%;
-	height: 500px;
-	float: left;
+    height: 800px;
+    float: left;
+    
 }
 
 main .about article .sobre {
 	width: 400px;
 	height: 500px;
-	margin: 100px auto;
+	margin: 40% auto;
 	color: #FFFFFF;
 }
 
@@ -147,15 +147,12 @@ main .about figure {
 }
 
 main .about figure img {
-	margin: auto;
-	width: 250px;
-	height: 500px;
-	display: block;
+	margin: 30% auto;
+    width: 250px;
+    height: 500px;
+    display: block;
 }
 
-#about, #features {
-	background-color: transparent;
-}
 
 #features .areautil {
 	height: 700px;
@@ -397,7 +394,7 @@ input:focus, textarea:focus {
 
 footer {
 	width: 100%;
-	height: 100px;
+	height: 135px;
 	position: relative;
 	background-color: #57C1F2;
 }
@@ -436,7 +433,7 @@ footer aside .social {
 /*css plugin */
 
 #carousel {
-	height: 90%;
+	height: 85%;
 }
 
 #carousel .cloud9-item, #buttons button {
