@@ -20,15 +20,42 @@ h2 {
 	margin-bottom: 20px;
 }
 
-#container {
+.containernav {
+	width: 100%;
+	height: 60px;
+	background: #57C1F2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+
+.boxnav {
+    min-width: 600px;
+    max-width: 1024px;
+    margin: auto;
+    background: #57C1F2;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.menor, .areautil { 
+	min-width: 600px; 
 	max-width: 1024px;
-	min-width: 600px;
 	margin: auto;
 }
 
+.maior { 
+	width: 100%; 
+	background-color: #57C1F2;
+}
+
+
 header {
 	width: 100%;
-	max-width: 1024px;
+    background: #57C1F2;	
 	min-width: 600px;
 	height: 60px;
 	position: fixed;
@@ -112,6 +139,7 @@ main .about article a {
     margin: auto;
 }
 
+
 main .about figure {
 	width: 50%;
 	height: 500px;
@@ -125,23 +153,29 @@ main .about figure img {
 	display: block;
 }
 
-main .features {
+#about, #features {
+	background-color: transparent;
+}
+
+#features .areautil {
 	height: 700px;
 	width: 100%;
 }
 
 main .gallery {
 	margin-bottom: 50px;
+    margin-top: 20px;
 }
 
 #galeria {
-	color: #64A934;
+	color: #57C1F2;
 }
 
 main .download {
 	width: 100%;
 	height: 600px;
-	background-color: #64A934;
+	background-color: #57C1F2;
+	padding-top: 20px;
 }
 
 main .download figure {
@@ -190,10 +224,11 @@ main .download aside .buttons {
 main .contato {
 	width: 100%;
 	height: 700px;
+	margin-top: 20px;
 }
 
 #contato {
-	color: #64A934;
+	color: #57C1F2;
 }
 
 /*CSS CONTATO FORM E ICONES*/
@@ -268,7 +303,7 @@ main .contato {
 	background-image: url(../images/icons/name.svg);
 	background-size: 30px 30px;
 	background-position: 8px 5px;
-  background-position: 11px 8px;
+  	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
@@ -282,7 +317,7 @@ main .contato {
 #email:focus{
 	background-image: url(../images/icons/email.svg);
 	background-size: 30px 30px;
-  background-position: 11px 8px;
+  	background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
 
@@ -364,7 +399,11 @@ footer {
 	width: 100%;
 	height: 100px;
 	position: relative;
-	background-color: #64A934;
+	background-color: #57C1F2;
+}
+
+footer .footer-content {
+	padding-top: 15px;
 }
 
 footer article {
