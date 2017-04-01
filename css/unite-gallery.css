@@ -816,6 +816,7 @@ img.ug-sepia-effect{
 	background-position:0px 0px;
 	z-index:3;
 	cursor:pointer;
+    background-size: contain;
 }
 
 .ug-lightbox .ug-lightbox-arrow-right{
@@ -831,6 +832,7 @@ img.ug-sepia-effect{
 	background-position:0px 0px;
 	z-index:4;
 	cursor:pointer;
+	background-size: contain;
 }
 
 

@@ -318,6 +318,20 @@ main .contato {
 	background-repeat: no-repeat;
 }
 
+#telefone{
+	background-image: url(../images/icons/phone.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#telefone:focus{
+	background-image: url(../images/icons/phone.png);
+	background-size: 30px 30px;
+  	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
 #comentario{
 	background-image: url(../images/icons/comment.svg);
 	background-size: 30px 30px;
