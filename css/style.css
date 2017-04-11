@@ -101,6 +101,7 @@ main .about {
 	width: 100%;
 	height: 800px;
 	background: url(../images/bemypet3.jpg) no-repeat;
+	background-size: cover;
 }
 
 main .about article {
